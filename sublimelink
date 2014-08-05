@@ -13,5 +13,6 @@ test -d /Applications/Sublime\ Text.app/ && {
   ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
   exit 0
 }
-
+	echo "Dotfile installation complete."
+	
 exit 1
